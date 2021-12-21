@@ -1,8 +1,8 @@
 {
-    "appService.defaultWebAppToDeploy": "/subscriptions/30883a83-7bb9-474e-99f0-bc75f5d35570/resourceGroups/GR_EPM_Jota/providers/Microsoft.Web/sites/jaibana",
     "appService.deploySubpath": ".",
     "appService.zipIgnorePattern": [
         "node_modules{,/**}",
         ".vscode{,/**}"
-    ]
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/30883a83-7bb9-474e-99f0-bc75f5d35570/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/jaibana"
 }
