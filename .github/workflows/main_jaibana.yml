@@ -52,4 +52,4 @@ jobs:
         with:
           app-name: 'jaibana'
           publish-profile: $
-          package: ./dist/jaibana
+          package: ./dist/spa
