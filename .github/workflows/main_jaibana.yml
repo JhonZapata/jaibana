@@ -51,6 +51,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'jaibana'
-          slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3128E47AE0A84CAB9F1BC0C7043BBFC7 }}
-          package: .
+          publish-profile: $
+          package: ./dist/jaibana
